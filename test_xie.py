@@ -5,6 +5,8 @@ i = 0
 print('please input a number')
 name = input()
 
+if int(name) > 26:
+   print("It's a wrong number")
 while i <= 26:
    if int(name) == i:
          print(numbers[i])
